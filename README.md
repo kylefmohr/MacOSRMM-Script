@@ -49,8 +49,13 @@ Because we're not paying for codesigning, we'll get a scary warning the first ti
    <img width="625" alt="image" src="https://github.com/kylefmohr/MacOSRMM-Script/assets/6644803/9ce36c59-85ad-4816-8a61-0a069f26ec51">
 
  - Then click "Show Manual Instructions", and copy beginning at `-m install` until the end. You should have something like: `-m install --api https://api.yourdomain.com --client-id 1 --site-id 1 --agent-type workstation --auth <RandomString> --rdp --ping --power`
- - Open the terminal and run the downloaded agent *as sudo*, pasting the command line options you previously copied after the binary. Your command should look something like: `sudo rmmagent-amd64-v2.4.9 -m install --api https://api.yourdomain.com --client-id 1 --site-id 1 --agent-type workstation --auth <RandomString> --rdp --ping --power`
- - If you get an error about how the file isn't executable, you may have to run `chmod +x <your rmmagent binary>`, then rerun the above command. 
+ - Open the terminal and run the following command:
+
+ `chmod +x rmmagent-amd64-v2.4.9`
+
+  - Then, type `sudo ./rmmagent-amd64-v2.4.9 ` and then *paste* the string you copied in the previous step, the full command should look something like: 
+ 
+ `sudo ./rmmagent-amd64-v2.4.9 -m install --api https://api.yourdomain.com --client-id 1 --site-id 1 --agent-type workstation --auth <RandomString> --rdp --ping --power`
 
 You should be good to go!
 
