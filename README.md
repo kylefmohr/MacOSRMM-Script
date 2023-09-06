@@ -4,13 +4,15 @@ Instructions for installing the RMM agent on Mac computers without paying for co
 <summary>Compile the agent yourself</summary>
 <br>
 
-`brew install golang`
+```
+brew install golang
 
-`git clone https://github.com/amidaware/rmmagent.git`
+git clone https://github.com/amidaware/rmmagent.git
 
-`cd rmmagent`
+cd rmmagent
+```
 
-If using Intel Mac:
+Then, if using Intel Mac:
 
 `env CGO_ENABLED=0 GOOS=darwin GOARCH=amd64 go build -ldflags "-s -w"`
 
