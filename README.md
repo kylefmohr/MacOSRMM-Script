@@ -29,11 +29,11 @@ If using silicon Mac
 
 Intel Mac:
 
-https://github.com/kylefmohr/MacOSRMM-Script/releases/download/v2.4.9/rmmagent-amd64-v2.4.9
+https://github.com/kylefmohr/MacOSRMM-Script/releases/download/v2.5.0/rmmagent-amd64-v2.5.0
 
 Silicon Mac:
 
-https://github.com/kylefmohr/MacOSRMM-Script/releases/download/v2.4.9/rmmagent-arm64-v2.4.9
+https://github.com/kylefmohr/MacOSRMM-Script/releases/download/v2.5.0/rmmagent-arm64-v2.5.0
 
 </details>
 
@@ -51,11 +51,11 @@ Because we're not paying for codesigning, we'll get a scary warning the first ti
  - Then click "Show Manual Instructions", and copy beginning at `-m install` until the end. You should have something like: `-m install --api https://api.yourdomain.com --client-id 1 --site-id 1 --agent-type workstation --auth <RandomString> --rdp --ping --power`
  - Open the terminal and run the following command:
 
- `chmod +x rmmagent-amd64-v2.4.9`
+ `chmod +x rmmagent-amd64-v2.5.0`
 
-  - Then, type `sudo ./rmmagent-amd64-v2.4.9 ` and then *paste* the string you copied in the previous step, the full command should look something like: 
+  - Then, type `sudo ./rmmagent-amd64-v2.5.0 ` and then *paste* the string you copied in the previous step, the full command should look something like: 
  
- `sudo ./rmmagent-amd64-v2.4.9 -m install --api https://api.yourdomain.com --client-id 1 --site-id 1 --agent-type workstation --auth <RandomString> --rdp --ping --power`
+ `sudo ./rmmagent-amd64-v2.5.0 -m install --api https://api.yourdomain.com --client-id 1 --site-id 1 --agent-type workstation --auth <RandomString> --rdp --ping --power`
 
 You should be good to go!
 
