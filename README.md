@@ -29,11 +29,11 @@ If using silicon Mac
 
 Intel Mac:
 
-https://github.com/kylefmohr/MacOSRMM-Script/releases/download/v2.5.0/rmmagent-amd64-v2.5.0
+https://github.com/kylefmohr/MacOSRMM-Script/releases/download/v2.6.1/rmmagent-amd64-v2.6.1
 
 Silicon Mac:
 
-https://github.com/kylefmohr/MacOSRMM-Script/releases/download/v2.5.0/rmmagent-arm64-v2.5.0
+https://github.com/kylefmohr/MacOSRMM-Script/releases/download/v2.6.1/rmmagent-arm64-v2.6.1
 
 </details>
 
