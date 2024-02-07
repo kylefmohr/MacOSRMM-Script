@@ -37,7 +37,9 @@ jobs:
       uses: actions/upload-artifact@v4.3.0
       with:
         name: rmmagent-amd64
+        path: rmmagent/rmmagent-amd64
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v4.3.0
       with:
         name: rmmagent-arm64
+        path: rmmagent/rmmagent-arm64
